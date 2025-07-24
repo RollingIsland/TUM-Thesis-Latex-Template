@@ -1,0 +1,24 @@
+\newpage\setcounter{page}{1}\pagenumbering{roman}
+% declaration of originality
+\input{meta/declaration}
+% acknowledgements
+\input{meta/acknowledgement}
+% abstract
+\input{meta/abstract}
+
+% table of contents
+{\hypersetup{linkcolor=black} \tableofcontents \thispagestyle{onlypagenum}}
+\cleardoublepage
+% list of tables and figures
+{\hypersetup{linkcolor=black} \listoftables \thispagestyle{onlypagenum}}
+\addcontentsline{toc}{chapter}{List of Tables}
+\cleardoublepage
+{\hypersetup{linkcolor=black} \listoffigures \thispagestyle{onlypagenum}}
+\addcontentsline{toc}{chapter}{List of Figures}
+\cleardoublepage
+% list of acronym
+\setlength{\glsdescwidth}{0.65\linewidth}
+\setlength{\glspagelistwidth}{0.2\linewidth}
+\addcontentsline{toc}{chapter}{Abbreviations}
+{\printglossary[type=\acronymtype,style=long,title={Abbreviations}] \thispagestyle{onlypagenum}}
+\cleardoublepage
