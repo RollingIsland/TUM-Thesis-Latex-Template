@@ -1,0 +1,61 @@
+% File:      main.tex
+% Author:    Zhiying WANG
+% Email:     zhiying.wang@tum.de
+% Institute: Professur für Satellitengeodäsie
+%            Technische Universität München
+% Created:   2025-07-24
+%
+% Description:
+%   Main file for thesis
+%
+
+\documentclass{tumthesis}
+\usepackage{lipsum} % to generate some random content for the template, can be deleted for actual use
+
+% ===============================================================
+% Modify the basic information here
+\title{Thesis Template}
+\subtitle{for \LaTeX}
+\author{Zhiying Wang}
+\program{M. Sc. Geodesy and Geoinformation/ESPACE}
+\chair{Professur für Satellitengeodäsie}
+\type{Master's or Bachelor's Thesis}
+\supervisorA{Prof. Dr. Urs Hugentobler}
+\supervisorB{Supervisor B}
+\supervisorC{If you need to change the number of \\ 
+             & supervisors please go into the tumsatgeo.cls file}
+\submissiondate{01}{10}{2023}
+% ===============================================================
+
+\input{meta/abbr}
+\makeglossaries
+
+\begin{document}
+    \makecover
+    \input{meta/allfrontmatters}
+
+    % ===============================================================
+    % Chapter list, change if you have less or more chapters
+    \newpage\setcounter{page}{1}\pagenumbering{arabic}
+    \include{chapters/ch1.intro}
+    \clearpage{\thispagestyle{empty}\cleardoublepage} % this is to ensure every chapter starts at single page
+    \include{chapters/ch2.review}
+    \clearpage{\thispagestyle{empty}\cleardoublepage}
+    \include{chapters/ch3.backgrd}
+    \clearpage{\thispagestyle{empty}\cleardoublepage}
+    \include{chapters/ch4.innovation}
+    \clearpage{\thispagestyle{empty}\cleardoublepage}
+    \include{chapters/ch5.experiments}
+    \clearpage{\thispagestyle{empty}\cleardoublepage}
+    \include{chapters/ch6.conclusion}
+    \clearpage{\thispagestyle{empty}\cleardoublepage}
+    \include{chapters/ch7.outlook}
+    \clearpage{\thispagestyle{empty}\cleardoublepage}
+    % ===============================================================
+
+    \newpage
+    \addcontentsline{toc}{chapter}{References}
+    \renewcommand\bibname{References}
+    \bibliographystyle{ieeetr} % We choose the "ieee" reference style
+    \bibliography{ref} 
+\end{document}
