@@ -1,0 +1,23 @@
+\chapter{Background}\label{ch:theory}
+    An example for table:
+    \begin{table}[h!]
+        \centering
+        \caption{Radiometric quantities in BRDF.}\label{tbl:brdf}
+        \begin{tabular}{ l c c l }
+            \Xhline{2\arrayrulewidth} 
+            \textbf{Quantity} & \textbf{Symbol} & \textbf{Definition} & \textbf{Unit} \\
+            \hline \\ [-0.5em]
+            Light Power & \(\Phi\) & \(-\) & \(\rm W\) \\ [0.5em]
+            Irradiance  & \(E\)    & \(\dfrac{\partial\Phi}{\partial \mathcal{A}}\) & \(\rm W \cdot m^{-2}\) \\ [0.5em]
+            Radiance    & \(L\)    & \(\dfrac{\partial^2\Phi}{\partial \omega\partial \mathcal{A}}\) & \(\rm W \cdot m^{-2} \cdot sr^{-1}\) \\ [0.5em]
+            \Xhline{2\arrayrulewidth} 
+        \end{tabular}
+    \end{table}
+
+    An example for equations:
+    \begin{equation}
+        E_{{\rm obs}(i)} = L_{{\rm obs}(i)} \cdot \omega_{{\rm obs}(i)}
+        = C_{\rm sun} \cdot \rho\left(\bm e_{\rm sun}^I , \bm n_{(i)}^I\right) \cdot \left(\bm e_{\rm sun}^I \cdot \bm n_{(i)}^I\right) \dfrac{\mathcal{A}_{(i)} \left(\bm e_{\rm obs}^I \cdot \bm n_{(i)}^I\right)}{d^2}
+    \end{equation}
+
+    \lipsum[1-3]
