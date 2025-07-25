@@ -118,7 +118,7 @@
             \begin{tabular}{p{4.5em}l} 
               Supervisors: & \@supervisorA \\
                            & \@supervisorB \\
-                           % & \@supervisorC
+                           % & \@supervisorC \\
             \end{tabular}}
             \vfill{\Large München, \monthyeardate\today}
         \end{center}
@@ -136,7 +136,7 @@
                        & der TUM School of Engineering and Design \\
         \textbf{Supervisors} & \@supervisorA \\
                              & \@supervisorB \\
-                             & \@supervisorC \\
+                             % & \@supervisorC \\
         \textbf{Submission Date} & \@submissiondate \\
     \end{tabular}
 
