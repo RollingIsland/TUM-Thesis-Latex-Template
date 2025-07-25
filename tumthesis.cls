@@ -69,10 +69,10 @@
 \newcommand{\@chair}{}  
 \newcommand{\@type}{}  
 
-% supervisor list, change if you have less or more supervisors
+% supervisor list, you can de-comment the "supervisorC" or even add more if you want
 \newcommand{\@supervisorA}{}  
 \newcommand{\@supervisorB}{}  
-\newcommand{\@supervisorC}{}  
+% \newcommand{\@supervisorC}{}  
 
 \newcommand{\@submissiondate}{} 
 
@@ -81,10 +81,10 @@
 \newcommand{\chair}[1]{\def\@chair{#1}}
 \newcommand{\type}[1]{\def\@type{#1}}
 
-% supervisor list, change if you have less or more supervisors
+% assignment function of the supervisor list, must match with the supervisor list
 \newcommand{\supervisorA}[1]{\def\@supervisorA{#1}}
 \newcommand{\supervisorB}[1]{\def\@supervisorB{#1}}
-\newcommand{\supervisorC}[1]{\def\@supervisorC{#1}}
+% \newcommand{\supervisorC}[1]{\def\@supervisorC{#1}}
 
 \newcommand{\submissiondate}[3]{%
   \newdate{sdate}{#1}{#2}{#3}%
@@ -118,7 +118,7 @@
             \begin{tabular}{p{4.5em}l} 
               Supervisors: & \@supervisorA \\
                            & \@supervisorB \\
-                           & \@supervisorC
+                           % & \@supervisorC
             \end{tabular}}
             \vfill{\Large München, \monthyeardate\today}
         \end{center}
