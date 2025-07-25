@@ -2,7 +2,7 @@
 A latex theis template for Technical University of Munich (TUM), extracted from my own master thesis. The cover is based on [Technical University of Munich (tumphthesis)](https://www.overleaf.com/latex/templates/technical-university-of-munich-tumphthesis/gzzqnqhbwwpb).
 
 ## Requirement
-This template was tested with **Overleaf** and **VSCodeLatex Workshop**. About how to set up Latex Workshop in VSCode, please look at [LaTeX Workshop - Installation and basic settings](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install).
+This template was tested with both the online environment **Overleaf** and the local environment **VSCode Latex Workshop**. About how to set up Latex Workshop in VSCode, please look at [LaTeX Workshop - Installation and basic settings](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install).
 
 ## Structure
 * `main.tex` is the main tex file, where you can change the basic information and the chapters you want to include. It is the beginning point for you to write your own thesis.  
