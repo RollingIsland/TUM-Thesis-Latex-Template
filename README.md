@@ -1,4 +1,4 @@
-# TUM-Thesis-Latex-Template
+# TUM Thesis Latex Template
 A latex theis template for Technical University of Munich (TUM), extracted from my own master thesis. The cover is based on [Technical University of Munich (tumphthesis)](https://www.overleaf.com/latex/templates/technical-university-of-munich-tumphthesis/gzzqnqhbwwpb).
 
 ## Usage
